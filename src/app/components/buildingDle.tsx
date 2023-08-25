@@ -5,12 +5,28 @@ import Form from 'react-bootstrap/Form';
 import Select from 'react-select';
 import Button from 'react-bootstrap/Button';
 import ListGroup from 'react-bootstrap/ListGroup';
+import ignore_buildings from "../buildings.json";
 
-  const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
-  ] // Temporary Data
+// Maybe we should move this somewhere else idk
+interface Building {
+  name: string;
+  street: string;
+  latitude: number;
+  longitude: number;
+}
+
+function randElement<T>(arr: T[]): T {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+// Make Typescript happy
+const buildings: Record<string, Building> = ignore_buildings;
+
+const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
+
+// TODO: Don't do it like this. We want it to be the same for everyone each day
+const correct_answer = randElement(Object.keys(buildings))
+console.log(correct_answer);
 
 function BuildingDle() {
   // Please change search form to dropdown thing please ty thanks :)
@@ -22,7 +38,7 @@ function BuildingDle() {
               placeholder="Search"
               className="me-2 flex-fill"
               aria-label="Search"
-              options={options}
+              options={select_options}
             />
             <Button variant="success">Guess!</Button>
         </Form>
