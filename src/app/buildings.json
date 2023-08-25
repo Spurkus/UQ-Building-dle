@@ -1,0 +1,778 @@
+[ {
+    "name" : "Abel Smith Lecture Theatre",
+    "buildingNumber" : 23, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Advanced Engineering Building",
+    "buildingNumber" : 49, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Andrew N. Liveris",
+    "buildingNumber" : 46, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Archaeology Teaching and Research Centre",
+    "buildingNumber" : "56J", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Athletics field shelter North",
+    "buildingNumber" : "40A", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Australian Institute for Bioengineering and Nanotechnology",
+    "buildingNumber" : 75, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Axon Building",
+    "buildingNumber" : 47, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Biological Sciences Library",
+    "buildingNumber" : 94, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Boating and Diving Facility",
+    "buildingNumber" : "89F", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Bookshop",
+    "buildingNumber" : 4, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Brian Wilson Chancellery",
+    "buildingNumber" : "61A", 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Building 33",
+    "buildingNumber" : 33, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Building 41",
+    "buildingNumber" : 41, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Building 69",
+    "buildingNumber" : 69, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Building 87",
+    "buildingNumber" : 87, 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Building 87A",
+    "buildingNumber" : "87A", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Building 97",
+    "buildingNumber" : 97, 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Cairngorm Homestead Building",
+    "buildingNumber" : "91C", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Campus Kindergarten",
+    "buildingNumber" : 73, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Central Glasshouse Building",
+    "buildingNumber" : "89E", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Centre for Advanced Imaging",
+    "buildingNumber" : 57, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Chamberlain Building",
+    "buildingNumber" : 35, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Chancellors Place Bus Stop Shelter",
+    "buildingNumber" : "77A", 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Chemistry Building",
+    "buildingNumber" : 68, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "CityCat Ferry Terminal",
+    "buildingNumber" : "58C", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Colin Clark Building",
+    "buildingNumber" : 39, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Collaborative Design Laboratory",
+    "buildingNumber" : "51A", 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Community Garden BBQ Pavilion",
+    "buildingNumber" : "99B", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Conifer Knoll Parking Station",
+    "buildingNumber" : "98D", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Connell Building",
+    "buildingNumber" : 26, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "CSIRO Car Park",
+    "buildingNumber" : "80B", 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "CSIRO Controlled Environment Facility",
+    "buildingNumber" : "80A", 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Cumbrae-Stewart Building",
+    "buildingNumber" : 72, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Curtis Building",
+    "buildingNumber" : "82L", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "David Theile Olympic Pool",
+    "buildingNumber" : 27, 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Don Nicklin Building",
+    "buildingNumber" : 74, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Drama Unit Marquee",
+    "buildingNumber" : "53D", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Duhig Link",
+    "buildingNumber" : "12A", 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Duhig North",
+    "buildingNumber" : 12, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Duhig Tower",
+    "buildingNumber" : 2, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Eric Freeman Boatshed",
+    "buildingNumber" : 30, 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Forgan Smith Building",
+    "buildingNumber" : 1, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Gehrmann Laboratories",
+    "buildingNumber" : 60, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "General Purpose North 3",
+    "buildingNumber" : "39A", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "General Purpose South",
+    "buildingNumber" : 78, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Global Change Institute Building",
+    "buildingNumber" : 20, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Goddard Building",
+    "buildingNumber" : 8, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Gordon Greenwood Building",
+    "buildingNumber" : 32, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Hartley Teakle Building",
+    "buildingNumber" : 83, 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Hawken Engineering Building",
+    "buildingNumber" : 50, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Human Movement Studies Building",
+    "buildingNumber" : "26B", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Human Performance Laboratories",
+    "buildingNumber" : "26A", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Industrial Centre",
+    "buildingNumber" : 85, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Institute for Social Science Research Research Hub",
+    "buildingNumber" : "31B", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "J.D. Story Administration Building",
+    "buildingNumber" : 61, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "James and Mary Emelia Mayne Centre",
+    "buildingNumber" : 11, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Sir James Foots Building",
+    "buildingNumber" : "47A", 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "John Hines Building",
+    "buildingNumber" : 62, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Joyce Ackroyd Building",
+    "buildingNumber" : 37, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Kev Carmody House",
+    "buildingNumber" : "91A", 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Learning Innovation Building",
+    "buildingNumber" : 17, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Sir Llew Edwards Building",
+    "buildingNumber" : 14, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Mansergh Shaw Building",
+    "buildingNumber" : 45, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Margaret Cribb Early Learning",
+    "buildingNumber" : "93D", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "McElwain Building",
+    "buildingNumber" : "24A", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Michie Building",
+    "buildingNumber" : 9, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "ModWest",
+    "buildingNumber" : "11A", 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Molecular Biosciences",
+    "buildingNumber" : 76, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Multi Level Carpark P3",
+    "buildingNumber" : "98A", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Multi Level Carpark P4",
+    "buildingNumber" : "98B", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Munro Childcare Centre",
+    "buildingNumber" : "93C", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Otto Hirschfeld Building",
+    "buildingNumber" : 81, 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Parking Station",
+    "buildingNumber" : "98C", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Parnell Building",
+    "buildingNumber" : 7, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Pavilion (Playing Field 1)",
+    "buildingNumber" : "70A", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Pavilion (Playing Field 7)",
+    "buildingNumber" : "92A", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Pavilion (Playing Fields 2 & 3)",
+    "buildingNumber" : "53C", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Physics Annexe",
+    "buildingNumber" : 6, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Physiology Lecture Theatres",
+    "buildingNumber" : 63, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Playhouse Childcare Centre",
+    "buildingNumber" : "93E", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Prentice Building (incl. Prentice Centre)",
+    "buildingNumber" : 42, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Priestley Building",
+    "buildingNumber" : 67, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Queensland Bioscience Precinct",
+    "buildingNumber" : 80, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Queensland Brain Institute",
+    "buildingNumber" : 79, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Radon Pavilion",
+    "buildingNumber" : 16, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Richards Building",
+    "buildingNumber" : 5, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Ritchie Research Laboratories",
+    "buildingNumber" : "64A", 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Rugby Clubhouse",
+    "buildingNumber" : 40, 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Schonell Theatre",
+    "buildingNumber" : 22, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Seddon Buildings",
+    "buildingNumber" : "82A-M", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Skerman Building",
+    "buildingNumber" : 65, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Social Sciences Annexe",
+    "buildingNumber" : "31A", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Social Sciences Building",
+    "buildingNumber" : 24, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Steele Building",
+    "buildingNumber" : 3, 
+    "precinct" : "Great Court Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Synthetic Playing Fields",
+    "buildingNumber" : "98E", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Therapies Annexe",
+    "buildingNumber" : "84A", 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Therapies Building",
+    "buildingNumber" : 84, 
+    "precinct" : "Glasshouse Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Union Building",
+    "buildingNumber" : "21A", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Centre",
+    "buildingNumber" : "27A", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Cricket Club Pavilion",
+    "buildingNumber" : "70B", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Lakes Bus Station",
+    "buildingNumber" : "58A", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Multi-Faith Chaplaincy Centre",
+    "buildingNumber" : 38, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Sport Academy",
+    "buildingNumber" : "28B", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Sport Athletics Centre",
+    "buildingNumber" : "29A", 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Sport Fitness Centre",
+    "buildingNumber" : 25, 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Sport Tennis Centre",
+    "buildingNumber" : 29, 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Sport Tennis Pavilion",
+    "buildingNumber" : 28, 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "UQ Union Complex",
+    "buildingNumber" : "21A-D", 
+    "precinct" : "Union Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Warehouse Building",
+    "buildingNumber" : 99, 
+    "precinct" : "Riverside Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Sir William MacGregor Building",
+    "buildingNumber" : 64, 
+    "precinct" : "Chancellors Place Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+},
+{
+    "name" : "Zelman Cowen Building",
+    "buildingNumber" : 51, 
+    "precinct" : "Staff House Road Precinct",
+    "xCoordinate" : null,
+    "yCoordinate" : null
+}
+]
