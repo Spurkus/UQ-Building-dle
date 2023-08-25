@@ -8,8 +8,8 @@
     "49": {
         "name": "Advanced Engineering Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.499484172969556,
+        "longitude": 153.01520724389093
     },
     "46": {
         "name": "Andrew N. Liveris",
@@ -152,8 +152,8 @@
     "39": {
         "name": "Colin Clark Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.494437358673526,
+        "longitude": 153.0141061
     },
     "51A": {
         "name": "Collaborative Design Laboratory",
@@ -278,8 +278,8 @@
     "8": {
         "name": "Goddard Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.498087082202264,
+        "longitude": 153.0120444865084
     },
     "32": {
         "name": "Gordon Greenwood Building",
@@ -290,8 +290,8 @@
     "83": {
         "name": "Hartley Teakle Building",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.49549849264935,
+        "longitude": 153.01046992883613
     },
     "50": {
         "name": "Hawken Engineering Building",
@@ -368,8 +368,8 @@
     "14": {
         "name": "Sir Llew Edwards Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.495453406621696,
+        "longitude": 153.01389597757043
     },
     "45": {
         "name": "Mansergh Shaw Building",
@@ -392,8 +392,8 @@
     "9": {
         "name": "Michie Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.497128045567628,
+        "longitude": 153.0119116153445
     },
     "11A": {
         "name": "ModWest",
@@ -428,8 +428,8 @@
     "81": {
         "name": "Otto Hirschfeld Building",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.49710891281504,
+        "longitude": 153.01060528465544
     },
     "98C": {
         "name": "Parking Station",
@@ -542,8 +542,8 @@
     "65": {
         "name": "Skerman Building",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.49890204972168,
+        "longitude": 153.01157628465543
     },
     "31A": {
         "name": "Social Sciences Annexe",
@@ -656,13 +656,13 @@
     "64": {
         "name": "Sir William MacGregor Building",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.499230950190736,
+        "longitude": 153.01232721534456
     },
     "51": {
         "name": "Zelman Cowen Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.49886633303896,
+        "longitude": 153.0146869
     }
 }
