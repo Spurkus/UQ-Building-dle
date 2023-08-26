@@ -2,8 +2,8 @@
     "23": {
         "name": "Abel Smith Lecture Theatre",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.49644607903149, 
+        "longitude": 153.01517584907526
     },
     "49": {
         "name": "Advanced Engineering Building",
@@ -14,44 +14,44 @@
     "46": {
         "name": "Andrew N. Liveris",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.499072749969137, 
+        "longitude": 153.0138170337327
     },
     "56J": {
         "name": "Archaeology Teaching and Research Centre",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.49683617857787, 
+        "longitude": 153.01835484907522
     },
     "40A": {
         "name": "Athletics field shelter North",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.492759790644563, 
+        "longitude": 153.01354603703288
     },
     "75": {
         "name": "Australian Institute for Bioengineering and Nanotechnology",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.50057950234993, 
+        "longitude": 153.01292963558217
     },
     "47": {
         "name": "Axon Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.4999064017957, 
+        "longitude": 153.01432934907524
     },
     "94": {
         "name": "Biological Sciences Library",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.496547710474815, 
+        "longitude": 153.01132926441784
     },
     "89F": {
         "name": "Boating and Diving Facility",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null
+        "latitude": -27.494874329929388, 
+        "longitude": 153.00924135772362
     },
     "4": {
         "name": "Bookshop",
