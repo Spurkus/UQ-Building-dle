@@ -18,7 +18,7 @@ export default function Home() {
     <main>
       <NavigationBar />
       <Row>
-        <Col xs={4} style={{margin: 0, padding: 0, border: 0}}><Map /> <Precinct /></Col>
+        <Col xs={4} style={{margin: 0, padding: 0, border: 0, backgroundColor:"#6c757c"}}><Map /> <Precinct /></Col>
         <Col xs={6} style={{margin: 0, padding: 0, border: 0}}>
           <div className="text-center bg-secondary d-flex flex-column" style={{height: "calc(100vh - 55px)"}}>
             <div style={{color: "white"}}>
