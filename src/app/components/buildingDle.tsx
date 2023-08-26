@@ -6,13 +6,14 @@ import Select from 'react-select';
 import Button from 'react-bootstrap/Button';
 import ignore_buildings from "../buildings.json";
 import Guess from './guess';
+import { useLocalStorage } from 'usehooks-ts';
 
 // Maybe we should move this somewhere else idk
 export interface Building {
   name: string;
   precinct: string;
-  latitude: number | null;
-  longitude: number | null;
+  latitude: number;
+  longitude: number;
 }
 
 function randElement<T>(arr: T[]): T {
@@ -34,6 +35,8 @@ function BuildingDle() {
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
   const [gameover, setGameover] = useState(false)
   const select_element = useRef(null)
+  const [wins, setWins] = useLocalStorage('wins', 0)
+  const [plays, setPlays] = useLocalStorage('plays', 0)
 
   // TODO: Proper typing
   // @ts-ignore
@@ -50,16 +53,19 @@ function BuildingDle() {
 
    console.log(value);
     
-   setGuesses([...guesses, <Guess buildings={buildings} num={value} correct_num={correct_answer}/>])
+   setGuesses([...guesses, <Guess buildings={buildings} num={value} correct_num={correct_answer} key={guesses.length}/>])
 
    if (value === correct_answer) {
     alert("epic you win")
+    setWins(wins + 1)
+    setPlays(plays + 1)
     setGameover(true);
     return
    }
 
   //  I think it's 5 because it's using the old value of guesses
    if (guesses.length === 5) {
+    setPlays(plays + 1)
     setGameover(true);
    }
   }
