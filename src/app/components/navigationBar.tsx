@@ -16,7 +16,7 @@ function NavigationBar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const [difficultyValue, setDifficultyValue] = useLocalStorage('difficulty', 1);
+  const [difficultyValue, setDifficultyValue] = useLocalStorage('difficulty', 2);
 
   const difficulties = [
     { name: 'Easy', value: 1 },
