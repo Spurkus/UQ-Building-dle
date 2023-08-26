@@ -11,6 +11,7 @@ export interface Building {
 }
 
 export const useShareableState = () => {
+  const [playing, setPlaying] = useState(true)
   const [gameover, setGameover] = useState(false)
 
   function randElement<T>(arr: T[]): T {
@@ -27,6 +28,8 @@ export const useShareableState = () => {
   const correct_answer = randElement(select_options.map(v => v.value))
 
   return {
+    playing,
+    setPlaying,
     gameover,
     setGameover,
     buildings,
