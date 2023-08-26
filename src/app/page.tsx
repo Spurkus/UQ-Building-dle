@@ -23,7 +23,7 @@ function boxStyle(width: string, height: string, paddingLeft: string, paddingRig
     paddingTop: paddingTop,
     paddingBottom: paddingBottom,
     borderRadius: '1rem',
-    boxShadow: '1px 2px 9px #9E9E9E',
+    boxShadow: '1px 2px 9px #36454F',
     color: '#3B3B3B'
   };
 return style
