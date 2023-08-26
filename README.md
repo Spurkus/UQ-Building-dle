@@ -4,7 +4,7 @@ UQ-Building-dle is like wordle mixed with countrydle, but for UQ buildings.
 
 If you're interested in playing, here is the link to play: [UQ-Building-dle](https://uq-building-dle.vercel.app) 
 
-![website picture][(http://url/to/img.png](https://i.imgur.com/awQ9bYy.png)
+![website picture][(https://i.imgur.com/awQ9bYy.png)
 
 It's actually like really fun and you can play forever.
 ___
