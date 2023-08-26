@@ -1,13 +1,11 @@
 import { ProgressBar } from "react-bootstrap";
-import { useLocalStorage } from "../hooks/useLocalStorage";
+import { useShareableState } from "../hooks/useShareableState";
+import { useBetween } from "use-between";
 
 const WinRatio: React.FC = () => {
-    const [plays] = useLocalStorage('plays', 0)
-    const [wins] = useLocalStorage('wins', 0)
+    const { wins, plays  } = useBetween(useShareableState);
     const win_ratio = wins/plays * 100
     const lose_ratio = 100 - win_ratio
-    console.log(plays, wins, win_ratio, lose_ratio);
-    
 
     return <> 
         <h6 style={{fontWeight: 600}}>Win/Lose Ratio:</h6> 
