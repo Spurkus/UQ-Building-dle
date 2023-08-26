@@ -23,7 +23,6 @@ export const useShareableState = () => {
   const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
   .filter(({value}) => buildings[value].latitude !== null)
 
-  // TODO: Don't do it like this. We want it to be the same for everyone each day
   const correct_answer = randElement(select_options.map(v => v.value))
 
   return {

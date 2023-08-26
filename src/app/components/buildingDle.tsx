@@ -77,7 +77,7 @@ function BuildingDle() {
         <Modal.Header>
           {won ? <Modal.Title>You Won!</Modal.Title> : <>
             <Modal.Title>You lost</Modal.Title>
-            The building was {correct_answer}
+            The building was {correct_answer} - {buildings[correct_answer].name}
           </>}
           
         </Modal.Header>

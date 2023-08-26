@@ -13,7 +13,7 @@ function Map() {
 
   const center = { lat: latitude, lng: longitude }
   return (
-    <div className="text-center d-flex flex-column" style={{height: "100%", width: "100%"}}>
+    <div className="text-center d-flex flex-column" style={{height: "50%", width: "100%"}}>
       <GoogleMap
         zoom={15}
         center={center}
