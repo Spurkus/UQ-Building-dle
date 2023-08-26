@@ -43,10 +43,10 @@ const Guess: React.FC<GuessProps> = ({buildings, num, correct_num}) => {
     // Physical distance
     const dist_fr = coordDistance(la1, ll1, la2, ll2)
 
-    return <ListGroup key="md" horizontal="md" className= "my-2 flex-fill d-flex">
-        <ListGroup.Item className="flex-fill">{name}</ListGroup.Item>
+    return <ListGroup key="md" horizontal="sm" className= "my-2 flex-fill d-flex text-center">
+        <ListGroup.Item className="flex-fill small">{name}</ListGroup.Item>
         <ListGroup.Item className="flex-fill" style={greenify(dist, 70)}>{num}</ListGroup.Item>
-        <ListGroup.Item className="flex-fill" style={pAnswer === pGuess? {backgroundColor: "#6fe388"} : {backgroundColor: "white"}}>{pGuess}</ListGroup.Item>
+        <ListGroup.Item className="flex-fill small" style={pAnswer === pGuess? {backgroundColor: "#6fe388"} : {backgroundColor: "white"}}>{pGuess}</ListGroup.Item>
         <ListGroup.Item className="flex-fill" style={greenify(dist, 200)}>{dist_fr}m</ListGroup.Item>
     </ListGroup>
 }

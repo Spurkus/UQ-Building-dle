@@ -16,7 +16,7 @@ import Map from './map';
 const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
 function BuildingDle() {
-  const { gameover, setGameover } = useBetween(useShareableState);
+  const { gameover, setGameover, guessAmount, setGuessAmount } = useBetween(useShareableState);
   const [ showModal, setShowModal ] = useState(false)
   const [ showSelectModal, setShowSelectModal ] = useState(false)
   console.log("correct answer:", correct_answer);
@@ -50,6 +50,7 @@ function BuildingDle() {
    console.log(value);
     
    setGuesses([...guesses, <Guess buildings={buildings} num={value} correct_num={correct_answer} key={guesses.length}/>])
+   setGuessAmount(guesses.length + 1)
 
    if (value === correct_answer) {
     setWon(true)
@@ -66,7 +67,6 @@ function BuildingDle() {
 
   return (<>
       <Container className="justify-content-center">
-        <h3>{guesses.length}/6</h3>
         {!gameover && <Form className="d-flex" onSubmit={handleSubmit}>
             <Select
               placeholder="Enter a building"
