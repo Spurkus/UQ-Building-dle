@@ -18,7 +18,7 @@ import { Fireworks } from "@fireworks-js/react";
 const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
 function BuildingDle() {
-  const { gameover, setGameover, guessAmount, setGuessAmount } = useBetween(useShareableState);
+  const { gameover, setGameover, setGuessAmount, select_element, getSelectValue } = useBetween(useShareableState);
   const [ showModal, setShowModal ] = useState(false)
   const [ showSelectModal, setShowSelectModal ] = useState(false)
   console.log("correct answer:", correct_answer);
@@ -26,13 +26,8 @@ function BuildingDle() {
 
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
   const [won, setWon] = useState(false)
-  const select_element = useRef(null)
   const [wins, setWins] = useLocalStorage('wins', 0)
   const [plays, setPlays] = useLocalStorage('plays', 0)
-
-  // TODO: Proper typing
-  // @ts-ignore
-  const getSelectValue: () => string | undefined = () => select_element.current?.state.selectValue[0]?.value;
 
   function onGameover() {
     setPlays(plays + 1)

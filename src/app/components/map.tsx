@@ -32,9 +32,9 @@ function Map() {
         zoom={zoom}
         center={center}
         mapContainerStyle={{ height: "100%", width: "100%", borderRadius: '0.7rem'}}
-        options={{ mapTypeControl: false, streetViewControl: false}}
+        options={{ mapTypeControl: false, streetViewControl: false }}
       >
-        <Marker position={center} />
+        {gameover && <Marker position={center} />}
       </GoogleMap>
     </div>
   );
