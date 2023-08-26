@@ -64,6 +64,7 @@ function BuildingDle() {
 
   return (<>
       <Container className="justify-content-center">
+        <h3>{guesses.length}/6</h3>
         {!gameover && <Form className="d-flex" onSubmit={handleSubmit}>
             <Select
               placeholder="Enter a building"
