@@ -6,10 +6,10 @@ import Select from 'react-select';
 import Button from 'react-bootstrap/Button';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ignore_buildings from "../buildings.json";
-import { log } from 'console';
+import Guess from './guess';
 
 // Maybe we should move this somewhere else idk
-interface Building {
+export interface Building {
   name: string;
   precinct: string;
   latitude: number | null;
@@ -24,10 +24,11 @@ function randElement<T>(arr: T[]): T {
 const buildings: Record<string, Building> = ignore_buildings;
 
 const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
+  .filter(({value}) => buildings[value].latitude !== null)
 
 // TODO: Don't do it like this. We want it to be the same for everyone each day
-const correct_answer = randElement(Object.keys(buildings))
-console.log(correct_answer);
+const correct_answer = randElement(select_options.map(v => v.value))
+console.log("correct answer:", correct_answer);
 
 
 
@@ -40,8 +41,7 @@ function coordDistance(b1: string, b2:string): number {
 
 
 function BuildingDle() {
-  // Please change search form to dropdown thing please ty thanks :)
-  const [buildingName, setBuildingName] = useState();
+  const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
   const select_element = useRef(null)
 
   // TODO: Proper typing
@@ -59,6 +59,13 @@ function BuildingDle() {
 
    console.log(value);
     
+   if (value === correct_answer) {
+    alert("epic you win")
+    return
+   }
+
+   setGuesses([...guesses, <Guess buildings={buildings} num={value}/>])
+
   }
 
   return (
@@ -73,12 +80,7 @@ function BuildingDle() {
             />
             <Button variant="success" type="submit">Guess!</Button>
         </Form>
-        <ListGroup key="md" horizontal="md" className="my-2">
-          <ListGroup.Item>Advanced Engineering Building</ListGroup.Item>
-          <ListGroup.Item>{'>'} 49</ListGroup.Item>
-          <ListGroup.Item>Staff House Road Precinct</ListGroup.Item>
-          <ListGroup.Item>100m</ListGroup.Item>
-        </ListGroup>
+        {guesses}
     </Container>
   );
 }
