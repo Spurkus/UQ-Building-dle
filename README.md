@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔥UQ-Building-dle🔥
 
-## Getting Started
+UQ-Building-dle is like wordle mixed with countrydle, but for UQ buildings. 
 
-First, run the development server:
+If you're interested in playing, here is the link to play: [UQ-Building-dle](https://uq-building-dle.vercel.app) 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+(ADD A PICTURE OF WEBSITE WHEN FINISHED)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It's actually like really fun and you can play forever.
+___
+A UQCS Hackathon 2023 project built in under 45 hours.
+## 💪Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+React, Next.js, Node.js, Versel, Bootstrap
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Authors
 
-To learn more about Next.js, take a look at the following resources:
+- [@Spurkus](https://www.github.com/spurkus)
+- add your names when ready
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Logo](https://i.imgur.com/4M2sZ0O.png)
