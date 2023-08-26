@@ -20,12 +20,12 @@ interface GuessProps {
 const Guess: React.FC<GuessProps> = ({buildings, num, correct_num}) => {
     const {name, precinct, latitude: la1, longitude: ll1 } = buildings[num]; 
     const {latitude: la2, longitude: ll2 } = buildings[correct_num]; 
-    return <ListGroup key="md" horizontal="md" className="my-2">
-        <ListGroup.Item>{name}</ListGroup.Item>
-        <ListGroup.Item>{parseInt(correct_num) > parseInt(num) ? '>' : '<'}{num}</ListGroup.Item>
-        <ListGroup.Item>{precinct}</ListGroup.Item>
+    return <ListGroup key="md" horizontal="md" className="my-2 flex-fill d-flex">
+        <ListGroup.Item className="flex-fill">{name}</ListGroup.Item>
+        <ListGroup.Item className="flex-fill">{parseInt(correct_num) > parseInt(num) ? '>' : '<'}{num}</ListGroup.Item>
+        <ListGroup.Item className="flex-fill">{precinct}</ListGroup.Item>
         {/* TODO: remove the ! */}
-        <ListGroup.Item>{coordDistance(la1!, ll1!, la2!, ll2!)}m</ListGroup.Item>
+        <ListGroup.Item className="flex-fill">{coordDistance(la1!, ll1!, la2!, ll2!)}m</ListGroup.Item>
     </ListGroup>
 }
 

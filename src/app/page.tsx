@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 import NavigationBar from "./components/navigationBar";
