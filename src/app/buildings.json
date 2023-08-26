@@ -2,7 +2,7 @@
     "23": {
         "name": "Abel Smith Lecture Theatre",
         "precinct": "Union Road Precinct",
-        "latitude": -27.49644607903149, 
+        "latitude": -27.49644607903149,
         "longitude": 153.01517584907526,
         "difficulty": "easy"
     },
@@ -16,302 +16,302 @@
     "46": {
         "name": "Andrew N. Liveris",
         "precinct": "Staff House Road Precinct",
-        "latitude": -27.499072749969137, 
+        "latitude": -27.499072749969137,
         "longitude": 153.0138170337327,
         "difficulty": "easy"
     },
     "56J": {
         "name": "Archaeology Teaching and Research Centre",
         "precinct": "Riverside Precinct",
-        "latitude": -27.49683617857787, 
+        "latitude": -27.49683617857787,
         "longitude": 153.01835484907522,
         "difficulty": "extreme"
     },
     "40A": {
         "name": "Athletics field shelter North",
         "precinct": "Riverside Precinct",
-        "latitude": -27.492759790644563, 
+        "latitude": -27.492759790644563,
         "longitude": 153.01354603703288,
         "difficulty": "extreme"
     },
     "75": {
         "name": "Australian Institute for Bioengineering and Nanotechnology",
         "precinct": "Chancellors Place Precinct",
-        "latitude": -27.50057950234993, 
+        "latitude": -27.50057950234993,
         "longitude": 153.01292963558217,
         "difficulty": "medium"
     },
     "47": {
         "name": "Axon Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": -27.4999064017957, 
+        "latitude": -27.4999064017957,
         "longitude": 153.01432934907524,
         "difficulty": "medium"
     },
     "94": {
         "name": "Biological Sciences Library",
         "precinct": "Great Court Precinct",
-        "latitude": -27.496547710474815, 
+        "latitude": -27.496547710474815,
         "longitude": 153.01132926441784,
         "difficulty": "easy"
     },
     "89F": {
         "name": "Boating and Diving Facility",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": -27.494874329929388, 
+        "latitude": -27.494874329929388,
         "longitude": 153.00924135772362,
         "difficulty": "extreme"
     },
     "4": {
         "name": "Bookshop",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497423263535097,
+        "longitude": 153.0144338364406,
         "difficulty": "hard"
     },
     "61A": {
         "name": "Brian Wilson Chancellery",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49842508258215,
+        "longitude": 153.011203267458,
         "difficulty": "medium"
     },
     "33": {
         "name": "Building 33",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496645625877946,
+        "longitude": 153.01648939432127,
         "difficulty": "hard"
     },
     "41": {
         "name": "Building 41",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.49858210127195,
+        "longitude": 153.0146238246458,
         "difficulty": "medium"
     },
     "69": {
         "name": "Building 69",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.498897449832715,
+        "longitude": 153.01255279140125,
         "difficulty": "easy"
     },
     "87": {
         "name": "Building 87",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496097213808167,
+        "longitude": 153.00991051349158,
         "difficulty": "hard"
     },
     "87A": {
         "name": "Building 87A",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.4965010128844,
+        "longitude": 153.00966978465544,
         "difficulty": "extreme"
     },
     "97": {
         "name": "Building 97",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49646652841831,
+        "longitude": 153.0097924134916,
         "difficulty": "extreme"
     },
     "73": {
         "name": "Campus Kindergarten",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.501011186530828,
+        "longitude": 153.01251100000005,
         "difficulty": "hard"
     },
     "89E": {
         "name": "Central Glasshouse Building",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49519909397668,
+        "longitude": 153.01015581534452,
         "difficulty": "extreme"
     },
     "12": {
         "name": "Central Library",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496067604039254,
+        "longitude": 153.01360505892305,
         "difficulty": "easy"
     },
     "57": {
         "name": "Centre for Advanced Imaging",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.500106251325963,
+        "longitude": 153.01206348465547,
         "difficulty": "hard"
     },
     "35": {
         "name": "Chamberlain Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.495095757819623,
+        "longitude": 153.01451318465544,
         "difficulty": "easy"
     },
     "77A": {
         "name": "Chancellors Place Bus Stop Shelter",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497959173959526,
+        "longitude": 153.01104205767226,
         "difficulty": "extreme"
     },
     "68": {
         "name": "Chemistry Building",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.499532558762898,
+        "longitude": 153.01300297790965,
         "difficulty": "easy"
     },
     "58C": {
         "name": "CityCat Ferry Terminal",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.495911419945973,
+        "longitude": 153.01955293236938,
         "difficulty": "extreme"
     },
     "39": {
         "name": "Colin Clark Building",
         "precinct": "Union Road Precinct",
         "latitude": -27.494437358673526,
-        "longitude": 153.0141061, 
+        "longitude": 153.0141061,
         "difficulty": "easy"
     },
     "51A": {
         "name": "Collaborative Design Laboratory",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49903373316934,
+        "longitude": 153.01524251991503,
         "difficulty": "hard"
     },
     "99B": {
         "name": "Community Garden BBQ Pavilion",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49399343825085,
+        "longitude": 153.01141741349159,
         "difficulty": "extreme"
     },
     "98D": {
         "name": "Conifer Knoll Parking Station",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49906916675127,
+        "longitude": 153.01814439999998,
         "difficulty": "extreme"
     },
     "26": {
         "name": "Connell Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.495077642778238,
+        "longitude": 153.0154945269832,
         "difficulty": "easy"
     },
     "80B": {
         "name": "CSIRO Car Park",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49790511439831,
+        "longitude": 153.00923105767225,
         "difficulty": "extreme"
     },
     "80A": {
         "name": "CSIRO Controlled Environment Facility",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497832876253828,
+        "longitude": 153.01008014062364,
         "difficulty": "hard"
     },
     "72": {
         "name": "Cumbrae-Stewart Building",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.499657684307255,
+        "longitude": 153.0117191,
         "difficulty": "hard"
     },
     "82L": {
         "name": "Curtis Building",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496798921819558,
+        "longitude": 153.01013241659228,
         "difficulty": "hard"
     },
     "27": {
         "name": "David Theile Olympic Pool",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.494908844585684,
+        "longitude": 153.0163511,
         "difficulty": "hard"
     },
     "74": {
         "name": "Don Nicklin Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.500374768223516,
+        "longitude": 153.01376002883612,
         "difficulty": "medium"
     },
     "53D": {
         "name": "Drama Unit Marquee",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.4992896210186,
+        "longitude": 153.0195163202175,
         "difficulty": "extreme"
     },
     "12A": {
         "name": "Duhig Link",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49628268384787,
+        "longitude": 153.01408043743288,
         "difficulty": "medium"
     },
     "2": {
         "name": "Duhig Tower",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496549309002095,
+        "longitude": 153.01434837895948,
         "difficulty": "easy"
     },
     "30": {
         "name": "Eric Freeman Boatshed",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.491917287405474,
+        "longitude": 153.01298002395313,
         "difficulty": "extreme"
     },
     "1": {
         "name": "Forgan Smith Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496727628914925,
+        "longitude": 153.01309965767223,
         "difficulty": "easy"
     },
     "60": {
         "name": "Gehrmann Laboratories",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49982033479756,
+        "longitude": 153.01207202698322,
         "difficulty": "hard"
     },
     "39A": {
         "name": "General Purpose North 3",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49472592293356,
+        "longitude": 153.0134776,
         "difficulty": "easy"
     },
     "78": {
         "name": "General Purpose South",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49993250086568,
+        "longitude": 153.01510478836136,
         "difficulty": "easy"
     },
     "20": {
         "name": "Global Change Institute Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497404346212598,
+        "longitude": 153.0145362404748,
         "difficulty": "medium"
     },
     "8": {
@@ -324,8 +324,8 @@
     "32": {
         "name": "Gordon Greenwood Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49636966068305,
+        "longitude": 153.01542178465544,
         "difficulty": "easy"
     },
     "83": {
@@ -338,113 +338,106 @@
     "50": {
         "name": "Hawken Engineering Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49965717205195,
+        "longitude": 153.01349602872492,
         "difficulty": "easy"
     },
     "26B": {
         "name": "Human Movement Studies Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.494844374272983,
+        "longitude": 153.01563117116388,
         "difficulty": "medium"
     },
     "26A": {
         "name": "Human Performance Laboratories",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.495371729803374,
+        "longitude": 153.01584753289654,
         "difficulty": "medium"
     },
     "85": {
         "name": "Industrial Centre",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.497131410184103,
+        "longitude": 153.0088412514766,
         "difficulty": "hard"
     },
     "31B": {
         "name": "Institute for Social Science Research Research Hub",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.495575287701733,
+        "longitude": 153.01529813291873,
         "difficulty": "hard"
     },
     "61": {
         "name": "J.D. Story Administration Building",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null, 
-        "difficulty": "medium"
-    },
-    "11": {
-        "name": "James and Mary Emelia Mayne Centre",
-        "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.498223581951347,
+        "longitude": 153.01155175767227,
         "difficulty": "medium"
     },
     "47A": {
         "name": "Sir James Foots Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.50028888534419,
+        "longitude": 153.01418395767226,
         "difficulty": "easy"
     },
     "62": {
         "name": "John Hines Building",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.4985627658067,
+        "longitude": 153.01215660000003,
         "difficulty": "medium"
     },
     "37": {
         "name": "Joyce Ackroyd Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49471919322992,
+        "longitude": 153.01472748650843,
         "difficulty": "medium"
     },
     "91A": {
         "name": "Kev Carmody House",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.496788179593445,
+        "longitude": 153.00851128465547,
         "difficulty": "medium"
     },
     "17": {
         "name": "Learning Innovation Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.498083664978232,
+        "longitude": 153.01398348465548,
         "difficulty": "medium"
     },
     "14": {
         "name": "Sir Llew Edwards Building",
         "precinct": "Great Court Precinct",
         "latitude": -27.495453406621696,
-        "longitude": 153.01389597757043, 
+        "longitude": 153.01389597757043,
         "difficulty": "medium"
     },
     "45": {
         "name": "Mansergh Shaw Building",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.499344233891946,
+        "longitude": 153.01438600000003,
         "difficulty": "medium"
     },
     "93D": {
         "name": "Margaret Cribb Early Learning",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.494057992201046,
+        "longitude": 153.01012121534453,
         "difficulty": "medium"
     },
     "24A": {
         "name": "McElwain Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496003078303808,
+        "longitude": 153.01483005767224,
         "difficulty": "medium"
     },
     "9": {
@@ -457,36 +450,36 @@
     "11A": {
         "name": "ModWest",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49614006161752,
+        "longitude": 153.01232660185292,
         "difficulty": "easy"
     },
     "76": {
         "name": "Molecular Biosciences",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.498033913869047,
+        "longitude": 153.0100413597564,
         "difficulty": "medium"
     },
     "98A": {
         "name": "Multi Level Carpark P3",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49485969764888,
+        "longitude": 153.01043147934618,
         "difficulty": "extreme"
     },
     "98B": {
         "name": "Multi Level Carpark P4",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.4947792570223,
+        "longitude": 153.00979669803345,
         "difficulty": "extreme"
     },
     "93C": {
         "name": "Munro Childcare Centre",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.498519682688485,
+        "longitude": 153.0093154,
         "difficulty": "hard"
     },
     "81": {
@@ -499,127 +492,127 @@
     "98C": {
         "name": "Parking Station",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.493237206643915,
+        "longitude": 153.011614665612,
         "difficulty": "extreme"
     },
     "7": {
         "name": "Parnell Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.49804689793709,
+        "longitude": 153.01314774907524,
         "difficulty": "easy"
     },
     "70A": {
         "name": "Pavilion (Playing Field 1)",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.501342680567376,
+        "longitude": 153.01142482073936,
         "difficulty": "extreme"
     },
     "92A": {
         "name": "Pavilion (Playing Field 7)",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49325632696239,
+        "longitude": 153.01289219602427,
         "difficulty": "extreme"
     },
     "53C": {
         "name": "Pavilion (Playing Fields 2 & 3)",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.499366904247147,
+        "longitude": 153.01906065097964,
         "difficulty": "extreme"
     },
     "6": {
         "name": "Physics Annexe",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.498447749482786,
+        "longitude": 153.01361976441783,
         "difficulty": "medium"
     },
     "63": {
         "name": "Physiology Lecture Theatres",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.4986920492186,
+        "longitude": 153.01194539140397,
         "difficulty": "easy"
     },
     "93E": {
         "name": "Playhouse Childcare Centre",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.493467874449085,
+        "longitude": 153.0095874673117,
         "difficulty": "hard"
     },
     "42": {
         "name": "Prentice Building (incl. Prentice Centre)",
         "precinct": "Staff House Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.498678015935276,
+        "longitude": 153.0139069104455,
         "difficulty": "easy"
     },
     "67": {
         "name": "Priestley Building",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.498913338920257,
+        "longitude": 153.01299691191605,
         "difficulty": "easy"
     },
     "80": {
         "name": "Queensland Bioscience Precinct",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.498107715720185,
+        "longitude": 153.0098678220891,
         "difficulty": "medium"
     },
     "79": {
         "name": "Queensland Brain Institute",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.499211233638956,
+        "longitude": 153.011783808596,
         "difficulty": "easy"
     },
     "16": {
         "name": "Radon Pavilion",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49827869276965,
+        "longitude": 153.0128103639823,
         "difficulty": "extreme"
     },
     "5": {
         "name": "Richards Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497800797431008,
+        "longitude": 153.01364622019432,
         "difficulty": "easy"
     },
     "64A": {
         "name": "Ritchie Research Laboratories",
         "precinct": "Chancellors Place Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.4998736993138,
+        "longitude": 153.01100458195006,
         "difficulty": "hard"
     },
     "40": {
         "name": "Rugby Clubhouse",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.492956942054636,
+        "longitude": 153.01222044269366,
         "difficulty": "extreme"
     },
     "22": {
         "name": "Schonell Theatre",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496834997651987,
+        "longitude": 153.01591814907528,
         "difficulty": "medium"
     },
     "82A-M": {
         "name": "Seddon Buildings",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49662300725337,
+        "longitude": 153.01087693183783,
         "difficulty": "hard"
     },
     "65": {
@@ -632,127 +625,134 @@
     "31A": {
         "name": "Social Sciences Annexe",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.54324382015528,
+        "longitude": 153.06687442203543,
         "difficulty": "medium"
     },
     "24": {
         "name": "Social Sciences Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.495857911943283,
+        "longitude": 153.0147193778186,
         "difficulty": "easy"
     },
     "3": {
         "name": "Steele Building",
         "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.49720931079578,
+        "longitude": 153.01483739501066,
         "difficulty": "easy"
     },
     "98E": {
         "name": "Synthetic Playing Fields",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497063862877294,
+        "longitude": 153.01695608286158,
         "difficulty": "extreme"
     },
     "84A": {
         "name": "Therapies Annexe",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497329179643803,
+        "longitude": 153.01019956436707,
         "difficulty": "medium"
     },
     "84": {
         "name": "Therapies Building",
         "precinct": "Glasshouse Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497512204082508,
+        "longitude": 153.01023989703285,
         "difficulty": "medium"
     },
     "21A": {
         "name": "Union Building",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497054613698047,
+        "longitude": 153.01525783558216,
+        "difficulty": "medium"
+    },
+    "11": {
+        "name": "UQ Art Museum",
+        "precinct": "Great Court Precinct",
+        "latitude": -27.49648852465509,
+        "longitude": 153.011991604332,
         "difficulty": "medium"
     },
     "27A": {
         "name": "UQ Centre",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.497246042120718,
+        "longitude": 153.01525455204376,
         "difficulty": "easy"
     },
     "70B": {
         "name": "UQ Cricket Club Pavilion",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.501210043109477,
+        "longitude": 153.01103846032,
         "difficulty": "extreme"
     },
     "58A": {
         "name": "UQ Lakes Bus Station",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49778418690057,
+        "longitude": 153.0174269380426,
         "difficulty": "extreme"
     },
     "38": {
         "name": "UQ Multi-Faith Chaplaincy Centre",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.495936178193926,
+        "longitude": 153.01517364907522,
         "difficulty": "hard"
     },
     "28B": {
         "name": "UQ Sport Academy",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.494524648128507,
+        "longitude": 153.0155205517612,
         "difficulty": "hard"
     },
     "29A": {
         "name": "UQ Sport Athletics Centre",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.493541137242538,
+        "longitude": 153.01214984898976,
         "difficulty": "hard"
     },
     "25": {
         "name": "UQ Sport Fitness Centre",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49511771788329,
+        "longitude": 153.0155169718157,
         "difficulty": "hard"
     },
     "29": {
         "name": "UQ Sport Tennis Centre",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null, 
+        "latitude": -27.49429925148762,
+        "longitude": 153.0151951067465,
         "difficulty": "hard"
     },
     "28": {
         "name": "UQ Sport Tennis Pavilion",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49454771495378,
+        "longitude": 153.01530137661325,
         "difficulty": "extreme"
     },
     "21A-D": {
         "name": "UQ Union Complex",
         "precinct": "Union Road Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.496296146384694,
+        "longitude": 153.0159807509247,
         "difficulty": "easy"
     },
     "99": {
         "name": "Warehouse Building",
         "precinct": "Riverside Precinct",
-        "latitude": null,
-        "longitude": null,
+        "latitude": -27.49439029511802,
+        "longitude": 153.00853147786816,
         "difficulty": "hard"
     },
     "64": {
