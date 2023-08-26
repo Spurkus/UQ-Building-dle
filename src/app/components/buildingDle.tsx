@@ -4,36 +4,18 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Select from 'react-select';
 import Button from 'react-bootstrap/Button';
-import ignore_buildings from "../buildings.json";
 import Guess from './guess';
 import { useLocalStorage } from "../hooks/useLocalStorage";
-
-// Maybe we should move this somewhere else idk
-export interface Building {
-  name: string;
-  precinct: string;
-  latitude: number;
-  longitude: number;
-}
-
-function randElement<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
-
-// Make Typescript happy
-const buildings: Record<string, Building> = ignore_buildings;
-
-const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
-  .filter(({value}) => buildings[value].latitude !== null)
-
-// TODO: Don't do it like this. We want it to be the same for everyone each day
-const correct_answer = randElement(select_options.map(v => v.value))
-console.log("correct answer:", correct_answer);
+import { useShareableState } from '../hooks/useShareableState';
+import { useBetween } from 'use-between';
 
 
 function BuildingDle() {
+  const { gameover, setGameover, buildings, select_options, correct_answer } = useBetween(useShareableState);
+  console.log("correct answer:", correct_answer);
+
+
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
-  const [gameover, setGameover] = useState(false)
   const select_element = useRef(null)
   const [wins, setWins] = useLocalStorage('wins', 0)
   const [plays, setPlays] = useLocalStorage('plays', 0)
