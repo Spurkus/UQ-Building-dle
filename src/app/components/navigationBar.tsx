@@ -8,6 +8,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Modal from 'react-bootstrap/Modal';
 import Image from 'next/image';
+import { useLocalStorage } from '../hooks/useLocalStorage';
 
 function NavigationBar() {
   const [show, setShow] = useState(false);
@@ -15,23 +16,21 @@ function NavigationBar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-
-  const [checked, setChecked] = useState(false);
-  const [difficultyValue, setDifficultyValue] = useState('1');
+  const [difficultyValue, setDifficultyValue] = useLocalStorage('difficulty', 1);
 
   const difficulties = [
-    { name: 'Easy', value: '1' },
-    { name: 'Medium', value: '2' },
-    { name: 'Hard', value: '3' },
-    { name: 'Impossible', value: '4'}
+    { name: 'Easy', value: 1 },
+    { name: 'Medium', value: 2 },
+    { name: 'Hard', value: 3 },
+    { name: 'Impossible', value: 4}
   ];
 
   function variant(id: number) {
-    if (id == 1) {
+    if (id === 1) {
       return "outline-success"
-    } else if (id == 2) {
+    } else if (id === 2) {
       return "outline-info"
-    } else if (id == 3) {
+    } else if (id === 3) {
       return "outline-warning"
     } else {
       return "outline-danger"
@@ -55,6 +54,9 @@ function NavigationBar() {
           <Nav className="me-auto">
             <Nav.Link href="https://github.com/Spurkus/UQ-Building-dle">Github Repo</Nav.Link>
           </Nav>
+          <Button variant="primary" onClick={() => location.reload()}>
+            Play Again
+          </Button>
           <Button variant="outline-info" onClick={handleShow}>Settings ⚙️</Button>
         </Navbar.Collapse>
       </Container>
@@ -74,7 +76,7 @@ function NavigationBar() {
                 name="difficulty"
                 value={difficulty.value}
                 checked={difficultyValue === difficulty.value}
-                onChange={(e) => setDifficultyValue(e.currentTarget.value)}
+                onChange={(e) => setDifficultyValue(parseInt(e.currentTarget.value))}
               >
                 {difficulty.name}
               </ToggleButton>
@@ -85,8 +87,8 @@ function NavigationBar() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
+          <Button variant="primary" onClick={() => location.reload()}>
+            Play Again
           </Button>
         </Modal.Footer>
       </Modal>
