@@ -25,7 +25,7 @@
         "precinct": "Riverside Precinct",
         "latitude": -27.49683617857787, 
         "longitude": 153.01835484907522,
-        "difficulty": "hard"
+        "difficulty": "extreme"
     },
     "40A": {
         "name": "Athletics field shelter North",
@@ -46,7 +46,7 @@
         "precinct": "Staff House Road Precinct",
         "latitude": -27.4999064017957, 
         "longitude": 153.01432934907524,
-        "difficulty": "easy"
+        "difficulty": "medium"
     },
     "94": {
         "name": "Biological Sciences Library",
@@ -60,14 +60,14 @@
         "precinct": "Glasshouse Road Precinct",
         "latitude": -27.494874329929388, 
         "longitude": 153.00924135772362,
-        "difficulty": "hard"
+        "difficulty": "extreme"
     },
     "4": {
         "name": "Bookshop",
         "precinct": "Great Court Precinct",
         "latitude": null,
         "longitude": null,
-        "difficulty": "medium"
+        "difficulty": "hard"
     },
     "61A": {
         "name": "Brian Wilson Chancellery",
@@ -81,7 +81,7 @@
         "precinct": "Union Road Precinct",
         "latitude": null,
         "longitude": null,
-        "difficulty": "medium"
+        "difficulty": "hard"
     },
     "41": {
         "name": "Building 41",
@@ -132,6 +132,13 @@
         "longitude": null,
         "difficulty": "extreme"
     },
+    "12": {
+        "name": "Central Library",
+        "precinct": "Great Court Precinct",
+        "latitude": null,
+        "longitude": null,
+        "difficulty": "easy"
+    },
     "57": {
         "name": "Centre for Advanced Imaging",
         "precinct": "Chancellors Place Precinct",
@@ -179,7 +186,7 @@
         "precinct": "Staff House Road Precinct",
         "latitude": null,
         "longitude": null,
-        "difficulty": "medium"
+        "difficulty": "hard"
     },
     "99B": {
         "name": "Community Garden BBQ Pavilion",
@@ -257,13 +264,6 @@
         "latitude": null,
         "longitude": null,
         "difficulty": "medium"
-    },
-    "12": {
-        "name": "Duhig North",
-        "precinct": "Great Court Precinct",
-        "latitude": null,
-        "longitude": null,
-        "difficulty": "easy"
     },
     "2": {
         "name": "Duhig Tower",
