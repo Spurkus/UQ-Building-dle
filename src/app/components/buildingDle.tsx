@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 import { FormEvent, useRef, useState } from 'react'
 import Container from 'react-bootstrap/Container';
@@ -16,7 +17,8 @@ const select_options = Object.keys(buildings).map((num) => {return {value: num, 
 
 function BuildingDle() {
   const { gameover, setGameover } = useBetween(useShareableState);
-  const [showModal, setShowModal ] = useState(false)
+  const [ showModal, setShowModal ] = useState(false)
+  const [ showSelectModal, setShowSelectModal ] = useState(false)
   console.log("correct answer:", correct_answer);
 
 
@@ -41,7 +43,7 @@ function BuildingDle() {
     const value =  getSelectValue()
     
    if (value === undefined) {
-    alert("you need to select a building")
+    setShowSelectModal(true)
     return
    }
 
@@ -87,6 +89,17 @@ function BuildingDle() {
         <Modal.Body>
         <Button onClick={() => setShowModal(false)}>Close</Button>
 
+        <Map/>
+        </Modal.Body>
+      </Modal>
+
+      <Modal show={showSelectModal}>
+        <Modal.Header>
+          <Modal.Title>You didn't select anything you silly baka!! {'>.<'}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>Please select a building</p>
+        <Button onClick={() => setShowSelectModal(false)}>Close</Button>
         <Map/>
         </Modal.Body>
       </Modal>

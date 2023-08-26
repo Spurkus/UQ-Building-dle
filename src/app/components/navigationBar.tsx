@@ -54,10 +54,10 @@ function NavigationBar() {
           <Nav className="me-auto">
             <Nav.Link href="https://github.com/Spurkus/UQ-Building-dle">Github Repo</Nav.Link>
           </Nav>
-          <Button variant="primary" onClick={() => location.reload()}>
-            Play Again
-          </Button>
-          <Button variant="outline-info" onClick={handleShow}>Settings ⚙️</Button>
+          <Nav className="justify-content-end">
+            <Nav.Link><Button variant="primary" onClick={() => location.reload()}>Play Again</Button></Nav.Link>
+            <Nav.Link><Button variant="outline-info" onClick={handleShow}>Settings ⚙️</Button></Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Container>
       <Modal show={show} onHide={handleClose}>
