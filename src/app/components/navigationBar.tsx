@@ -12,6 +12,7 @@ import { useLocalStorage } from '../hooks/useLocalStorage';
 
 function NavigationBar() {
   const [show, setShow] = useState(false);
+  const [ showInstructionsModal, setShowInstructionsModal ] = useState(true)
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -92,6 +93,17 @@ function NavigationBar() {
           </Button>
         </Modal.Footer>
       </Modal>
+
+      <Modal show={showInstructionsModal}>
+        <Modal.Header>
+          <Modal.Title style={{textAlign: "center", width: "100%"}}>Instructions</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>Find the mystery building using the search bar and maps to guess. The different sections of the bar will become more green the closer you get to the correct answer. Good luck!</p>
+        <Button onClick={() => setShowInstructionsModal(false)}>Close</Button>
+        </Modal.Body>
+      </Modal>
+
     </Navbar>
   );
 }

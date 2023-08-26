@@ -625,8 +625,8 @@
     "31A": {
         "name": "Social Sciences Annexe",
         "precinct": "Union Road Precinct",
-        "latitude": -27.54324382015528,
-        "longitude": 153.06687442203543,
+        "latitude": -27.495819820422227, 
+        "longitude": 153.01470328055174,
         "difficulty": "medium"
     },
     "24": {
