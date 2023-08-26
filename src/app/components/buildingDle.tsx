@@ -8,6 +8,7 @@ import Guess from './guess';
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useShareableState } from '../hooks/useShareableState';
 import { useBetween } from 'use-between';
+import { Modal } from 'react-bootstrap';
 
 
 function BuildingDle() {
@@ -16,6 +17,7 @@ function BuildingDle() {
 
 
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
+  const [won, setWon] = useState(false)
   const select_element = useRef(null)
   const [wins, setWins] = useLocalStorage('wins', 0)
   const [plays, setPlays] = useLocalStorage('plays', 0)
@@ -24,6 +26,11 @@ function BuildingDle() {
   // @ts-ignore
   const getSelectValue: () => string | undefined = () => select_element.current?.state.selectValue[0]?.value;
 
+  function onGameover() {
+    setPlays(plays + 1)
+    setGameover(true);
+  }
+  
   function handleSubmit(event: FormEvent) {
     event.preventDefault() // make the website not reload
     const value =  getSelectValue()
@@ -38,35 +45,47 @@ function BuildingDle() {
    setGuesses([...guesses, <Guess buildings={buildings} num={value} correct_num={correct_answer} key={guesses.length}/>])
 
    if (value === correct_answer) {
-    alert("epic you win")
+    setWon(true)
     setWins(wins + 1)
-    setPlays(plays + 1)
-    setGameover(true);
+    onGameover()
     return
    }
 
   //  I think it's 5 because it's using the old value of guesses
    if (guesses.length === 5) {
-    setPlays(plays + 1)
-    setGameover(true);
+    onGameover()
    }
   }
 
-  return (
-    <Container className="justify-content-center">
-      {!gameover && <Form className="d-flex" onSubmit={handleSubmit}>
-          <Select
-            placeholder="Enter a building"
-            className="me-2 flex-fill"
-            aria-label="Search"
-            options={select_options}
-            ref={select_element}
-          />
-          <Button variant="success" type="submit">Guess!</Button>
-      </Form>}
-        
-      {guesses}
-    </Container>
+  return (<>
+      <Container className="justify-content-center">
+        {!gameover && <Form className="d-flex" onSubmit={handleSubmit}>
+            <Select
+              placeholder="Enter a building"
+              className="me-2 flex-fill"
+              aria-label="Search"
+              options={select_options}
+              ref={select_element}
+            />
+            <Button variant="success" type="submit">Guess!</Button>
+        </Form>}
+          
+        {guesses}
+      </Container>
+
+      <Modal show={gameover}>
+        <Modal.Header>
+          {won ? <Modal.Title>You Won!</Modal.Title> : <>
+            <Modal.Title>You lost</Modal.Title>
+            The building was {correct_answer}
+          </>}
+          
+        </Modal.Header>
+        <Modal.Body>
+        <Button onClick={() => location.reload()}>Play Again</Button>
+        </Modal.Body>
+      </Modal>
+    </>
   );
 }
 
