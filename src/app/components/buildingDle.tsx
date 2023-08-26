@@ -32,6 +32,7 @@ console.log("correct answer:", correct_answer);
 
 function BuildingDle() {
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
+  const [gameover, setGameover] = useState(false)
   const select_element = useRef(null)
 
   // TODO: Proper typing
@@ -49,28 +50,34 @@ function BuildingDle() {
 
    console.log(value);
     
+   setGuesses([...guesses, <Guess buildings={buildings} num={value} correct_num={correct_answer}/>])
+
    if (value === correct_answer) {
     alert("epic you win")
+    setGameover(true);
     return
    }
 
-   setGuesses([...guesses, <Guess buildings={buildings} num={value} correct_num={correct_answer}/>])
-
+  //  I think it's 5 because it's using the old value of guesses
+   if (guesses.length === 5) {
+    setGameover(true);
+   }
   }
 
   return (
     <Container className="justify-content-center">
-        <Form className="d-flex" onSubmit={handleSubmit}>
-            <Select
-              placeholder="Search"
-              className="me-2 flex-fill"
-              aria-label="Search"
-              options={select_options}
-              ref={select_element}
-            />
-            <Button variant="success" type="submit">Guess!</Button>
-        </Form>
-        {guesses}
+      {!gameover && <Form className="d-flex" onSubmit={handleSubmit}>
+          <Select
+            placeholder="Enter a building"
+            className="me-2 flex-fill"
+            aria-label="Search"
+            options={select_options}
+            ref={select_element}
+          />
+          <Button variant="success" type="submit">Guess!</Button>
+      </Form>}
+        
+      {guesses}
     </Container>
   );
 }
