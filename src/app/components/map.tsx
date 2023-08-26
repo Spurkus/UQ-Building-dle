@@ -32,6 +32,7 @@ function Map() {
         zoom={zoom}
         center={center}
         mapContainerStyle={{ height: "100%", width: "100%" }}
+        options={{ mapTypeControl: false, streetViewControl: false}}
       >
         <Marker position={center} />
       </GoogleMap>
