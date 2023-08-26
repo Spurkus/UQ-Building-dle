@@ -10,11 +10,13 @@ import { useShareableState } from '../hooks/useShareableState';
 import { useBetween } from 'use-between';
 import { Modal } from 'react-bootstrap';
 import { correct_answer, buildings } from "../shared";
+import Map from './map';
 
 const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
 function BuildingDle() {
   const { gameover, setGameover } = useBetween(useShareableState);
+  const [showModal, setShowModal ] = useState(false)
   console.log("correct answer:", correct_answer);
 
 
@@ -31,6 +33,7 @@ function BuildingDle() {
   function onGameover() {
     setPlays(plays + 1)
     setGameover(true);
+    setShowModal(true)
   }
   
   function handleSubmit(event: FormEvent) {
@@ -61,6 +64,7 @@ function BuildingDle() {
 
   return (<>
       <Container className="justify-content-center">
+        <h3>{guesses.length}/6</h3>
         {!gameover && <Form className="d-flex" onSubmit={handleSubmit}>
             <Select
               placeholder="Enter a building"
@@ -75,16 +79,15 @@ function BuildingDle() {
         {guesses}
       </Container>
 
-      <Modal show={gameover}>
+      <Modal show={showModal}>
         <Modal.Header>
-          {won ? <Modal.Title>You Won!</Modal.Title> : <>
-            <Modal.Title>You lost</Modal.Title>
-            The building was {correct_answer} - {buildings[correct_answer].name}
-          </>}
+          {<Modal.Title>{won ? "You Won!" : "You Lost"}</Modal.Title>}
           
         </Modal.Header>
         <Modal.Body>
-        <Button onClick={() => location.reload()}>Play Again</Button>
+        <Button onClick={() => setShowModal(false)}>Close</Button>
+
+        <Map/>
         </Modal.Body>
       </Modal>
     </>
