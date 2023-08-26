@@ -12,6 +12,8 @@ import { useBetween } from 'use-between';
 import { Modal } from 'react-bootstrap';
 import { correct_answer, buildings } from "../shared";
 import Map from './map';
+import Confetti from 'react-confetti';
+import { Fireworks } from "@fireworks-js/react";
 
 const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
@@ -103,6 +105,9 @@ function BuildingDle() {
         <Map/>
         </Modal.Body>
       </Modal>
+
+      {won && <Confetti/>}
+      {won && <Fireworks/>}
     </>
   );
 }
