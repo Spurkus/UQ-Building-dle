@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Select from 'react-select';
 import Button from 'react-bootstrap/Button';
-import ListGroup from 'react-bootstrap/ListGroup';
 import ignore_buildings from "../buildings.json";
 import Guess from './guess';
 
@@ -31,15 +30,6 @@ const correct_answer = randElement(select_options.map(v => v.value))
 console.log("correct answer:", correct_answer);
 
 
-
-function coordDistance(b1: string, b2:string): number {
-  const {latitude: la1, longitude: ll1} = buildings[b1]
-  const {latitude: la2, longitude: ll2} = buildings[b2]
-  // @ts-ignore
-  return Math.acos(Math.sin(la1)*Math.sin(la2) + Math.cos(la1)*Math.cos(la2)*Math.cos(ll2-ll1)) * 6.371 
-}
-
-
 function BuildingDle() {
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
   const select_element = useRef(null)
@@ -64,7 +54,7 @@ function BuildingDle() {
     return
    }
 
-   setGuesses([...guesses, <Guess buildings={buildings} num={value}/>])
+   setGuesses([...guesses, <Guess buildings={buildings} num={value} correct_num={correct_answer}/>])
 
   }
 
