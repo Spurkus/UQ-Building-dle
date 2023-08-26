@@ -23,8 +23,7 @@ function interpolateColour(dist: number, colour: number, start: number) {
 
 function greenify(distance: number, start: number) {
     const dist = Math.min(start, distance)
-    const col = `rgb(${interpolateColour(dist, 0x6f, start)}, ${interpolateColour(dist, 0xe3, start)}, ${interpolateColour(dist, 0x88, start)})`
-    return {backgroundColor: col}
+    return `rgb(${interpolateColour(dist, 0x6f, start)}, ${interpolateColour(dist, 0xe3, start)}, ${interpolateColour(dist, 0x88, start)})`
 }
 
 interface GuessProps {
@@ -44,10 +43,10 @@ const Guess: React.FC<GuessProps> = ({buildings, num, correct_num}) => {
     const dist_fr = coordDistance(la1, ll1, la2, ll2)
 
     return <ListGroup key="md" horizontal="sm" className= "my-2 flex-fill d-flex text-center">
-        <ListGroup.Item className="flex-fill small">{name}</ListGroup.Item>
-        <ListGroup.Item className="flex-fill" style={greenify(dist, 50)}>{num}</ListGroup.Item>
-        <ListGroup.Item className="flex-fill small" style={pAnswer === pGuess? {backgroundColor: "#6fe388"} : {backgroundColor: "white"}}>{pGuess}</ListGroup.Item>
-        <ListGroup.Item className="flex-fill" style={greenify(dist_fr, 300)}>{dist_fr}m</ListGroup.Item>
+        <ListGroup.Item className="small" style={{width: "40%"}}>{name}</ListGroup.Item>
+        <ListGroup.Item  style={{backgroundColor: greenify(dist, 50), width: "10%"}}>{num}</ListGroup.Item>
+        <ListGroup.Item className="small" style={ {backgroundColor: pAnswer === pGuess? "#6fe388" : "white", width: "35%"}}>{pGuess}</ListGroup.Item>
+        <ListGroup.Item style={{backgroundColor: greenify(dist_fr, 300), width: "15%"}}>{dist_fr}m</ListGroup.Item>
     </ListGroup>
 }
 
