@@ -9,10 +9,12 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useShareableState } from '../hooks/useShareableState';
 import { useBetween } from 'use-between';
 import { Modal } from 'react-bootstrap';
+import { correct_answer, buildings } from "../shared";
 
+const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
 function BuildingDle() {
-  const { gameover, setGameover, buildings, select_options, correct_answer } = useBetween(useShareableState);
+  const { gameover, setGameover } = useBetween(useShareableState);
   console.log("correct answer:", correct_answer);
 
 
