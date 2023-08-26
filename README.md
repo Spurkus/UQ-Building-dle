@@ -17,6 +17,7 @@ React, Next.js, Node.js, Versel, Bootstrap
 ## Authors
 
 - [@Spurkus](https://www.github.com/spurkus)
+- [@goanna5](https://github.com/goanna5)
 - add your names when ready
 
 
