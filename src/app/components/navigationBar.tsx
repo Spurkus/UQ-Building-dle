@@ -23,7 +23,7 @@ function NavigationBar() {
           <Nav className="me-auto">
             <Nav.Link href="https://github.com/Spurkus/UQ-Building-dle">Github Repo</Nav.Link>
           </Nav>
-          <Button variant="outline-info">Login (NOT YET IMPLEMENTED)</Button>
+          <Button variant="outline-info">Settings ⚙️</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
