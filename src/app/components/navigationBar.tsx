@@ -12,7 +12,7 @@ import { useLocalStorage } from '../hooks/useLocalStorage';
 
 function NavigationBar() {
   const [show, setShow] = useState(false);
-  const [ showInstructionsModal, setShowInstructionsModal ] = useState(true)
+  const [ showInstructionsModal, setShowInstructionsModal ] = useState(false)
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -58,6 +58,7 @@ function NavigationBar() {
           <Nav className="justify-content-end">
             <Nav.Link><Button variant="primary" onClick={() => location.reload()}>Play Again</Button></Nav.Link>
             <Nav.Link><Button variant="outline-info" onClick={handleShow}>Settings ⚙️</Button></Nav.Link>
+            <Nav.Link><Button variant="outline-info" onClick={() => setShowInstructionsModal(true)}>?</Button></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
