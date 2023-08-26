@@ -1,6 +1,6 @@
 'use client'
 import { ListGroup } from "react-bootstrap";
-import { Building } from "./buildingDle";
+import { Building } from "../shared";
 
 const toRadians = (angle: number ) => angle * (Math.PI / 180);
 const sin = (n: number) => Math.sin(toRadians(n))
