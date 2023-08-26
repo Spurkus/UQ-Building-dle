@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { correct_answer, buildings } from "../shared";
 import { Building } from "../shared";
 import React from 'react'
+import { useShareableState } from '../hooks/useShareableState';
+import { useBetween } from 'use-between';
 
 //use default new bc im too scared to delete default from the repo
 const precinctImageMap = {
@@ -12,18 +14,23 @@ const precinctImageMap = {
     "Staff House Road Precinct": "/precinct/staff_house.png",
     "Glasshouse Road Precinct": "/precinct/glasshouse.png",
     "Great Court Precinct": "/precinct/great_court.png",
+    undefined : "/precinct/default_new.png"
   };
 
 
 
 function Precinct() {
  
-    //just a random variable - needs to be linked to guess by user
-    var precinct_guess = "Union Road Precinct";
+    //gets the building number 
+    const { getSelectValue } = useBetween(useShareableState);
+  
+      var select_val = getSelectValue();
+
+      let precinct_guess = select_val ===undefined ? undefined :  buildings[select_val]["precinct"]; 
 
     //handling of guess to display appropriate image 
     // @ts-ignore
-    const imageSrc = precinctImageMap[precinct_guess] || "/precinct/default_new.png";
+    const imageSrc = precinctImageMap[precinct_guess];
    
   return (
     <div style={{position: 'relative', top: '-15px', left: '30px'}}>
