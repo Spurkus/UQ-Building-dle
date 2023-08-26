@@ -4,15 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 import NavigationBar from "./components/navigationBar";
 import BuildingDle from "./components/buildingDle";
 import Map from "./components/map";
-import { Row, Col, ProgressBar } from "react-bootstrap";
-import {useLocalStorage} from "usehooks-ts"
+import { Row, Col } from "react-bootstrap";
+import WinRatio from "./components/winRatio";
+
 
 export default function Home() {
-  const [plays] = useLocalStorage('plays', 0)
-  const [wins] = useLocalStorage('wins', 0)
-  const win_ratio = wins/plays * 100
-  const lose_ratio = 100 - win_ratio
-
   return (
     <main>
       <NavigationBar />
@@ -29,13 +25,11 @@ export default function Home() {
             <BuildingDle />
           </div>
         </Col>
-        <Col><p>Win/Lose Ratio: 
-          <ProgressBar>
-            <ProgressBar style={{backgroundColor: "green", width:`${win_ratio}%`}}/>
-            <ProgressBar style={{backgroundColor: "red", width: `${lose_ratio}%`}}/>
-          </ProgressBar>
+        <Col>
+          <WinRatio />
           <br/>
-        Leader board</p></Col>
+          <p>Leader board</p>
+        </Col>
       </Row>
     </main>
   )

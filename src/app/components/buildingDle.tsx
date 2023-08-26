@@ -6,7 +6,7 @@ import Select from 'react-select';
 import Button from 'react-bootstrap/Button';
 import ignore_buildings from "../buildings.json";
 import Guess from './guess';
-import { useLocalStorage } from 'usehooks-ts';
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 // Maybe we should move this somewhere else idk
 export interface Building {
