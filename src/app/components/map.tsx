@@ -27,11 +27,11 @@ function Map() {
   }
 
   return (
-    <div className="text-center d-flex flex-column" style={{height: "50%", width: "100%"}}>
+    <div style={{height: "100%", width: "100%"}}>
       <GoogleMap
         zoom={zoom}
         center={center}
-        mapContainerStyle={{ height: "100%", width: "100%" }}
+        mapContainerStyle={{ height: "100%", width: "100%", borderRadius: '0.7rem'}}
         options={{ mapTypeControl: false, streetViewControl: false}}
       >
         <Marker position={center} />

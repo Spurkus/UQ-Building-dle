@@ -6,36 +6,39 @@ import BuildingDle from "./components/buildingDle";
 import Map from "./components/map";
 import { Row, Col } from "react-bootstrap";
 import WinRatio from "./components/winRatio";
+import Streaks from "./components/streaks";
 import Precinct from "./components/precinct";
 import { useBetween } from "use-between";
 import { useShareableState } from "./hooks/useShareableState";
 import { correct_answer, buildings } from "./shared";
 
-export default function Home() {
-  const { gameover, guessAmount } = useBetween(useShareableState);
-
-  const boxStyle = {
-    margin: 'auto',
+function boxStyle(width: string, height: string, paddingLeft: string, paddingRight: string, paddingTop: string, paddingBottom: string) {
+  const style = {
     display: 'inline-block',
-    width: '100%',
-    height: '88%',
+    width: width,
+    height: height,
     backgroundColor: '#F8F8F8',
-    paddingLeft: '2rem',
-    paddingRight: '2rem',
-    paddingTop: '2rem',
-    paddingBottom: '1rem',
+    paddingLeft: paddingLeft,
+    paddingRight: paddingRight,
+    paddingTop: paddingTop,
+    paddingBottom: paddingBottom,
     borderRadius: '1rem',
     boxShadow: '1px 2px 9px #9E9E9E',
     color: '#3B3B3B'
   };
+return style
+}
+
+export default function Home() {
+  const { gameover, guessAmount } = useBetween(useShareableState);
 
   return (
-    <main style={{overflow: 'hidden'}}>
+    <main style={{overflow: 'hidden', backgroundImage: 'linear-gradient(140deg, #B034E9 0%, #06496E 100%)'}}>
       <NavigationBar />
       <Row>
-         <Col xs={5} md={6} style={{margin: 0, marginLeft: '45px', marginRight: '10px', padding: 0, border: 0}}>
-          <div className="bg-secondary d-flex flex-column" style={{height: "calc(100vh - 55px)"}}>
-            <div style={boxStyle}>
+         <Col xs={5} md={6} style={{margin: 0, marginTop: '25px', marginLeft: '45px', marginRight: '10px', padding: 0, border: 0}}>
+          <div className="d-flex flex-column" style={{height: "calc(100vh - 55px)"}}>
+            <div style={boxStyle('95%', '88%', '2rem', '2rem', '1rem', '1rem')}>
             {gameover ? <h4 style={{marginTop: "0.5em"}}>The correct answer was {correct_answer} - {buildings[correct_answer].name}</h4> : <>
               <h3 style={{textAlign: "center", fontWeight: "700"}}>Welcome to UQ-Building-dle</h3>
               <Row>
@@ -49,10 +52,29 @@ export default function Home() {
             </div>
           </div>
         </Col>
-        <Col xs={3} style={{margin: 0, padding: 0, border: 0, backgroundColor:"#6c757c"}}>
-          <Map />
-          <Precinct />
-          <WinRatio />
+        <Col xs={5} style={{marginTop: '25px', padding: 0, border: 0}}>
+          <div style={boxStyle('100%', '47%', '1rem', '1rem', '1rem', '1rem')}>
+            <Map />
+          </div>
+          <br></br>
+          <br></br>
+          <Row>
+            <Col xs={7}>
+            <div style={boxStyle('100%', '220px', '1rem', '1rem', '1rem', '1rem')}>
+              <Precinct />
+            </div>
+            </Col>
+            <Col xs={5}>
+            <div style={boxStyle('100%', '45%', '1rem', '1rem', '1.5rem', '1rem')}>
+              <WinRatio />
+            </div>
+            <br></br>
+            <br></br>
+             <div style={boxStyle('100%', '44%', '1rem', '1rem', '1.5rem', '1rem')}>
+              <Streaks />
+            </div>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </main>

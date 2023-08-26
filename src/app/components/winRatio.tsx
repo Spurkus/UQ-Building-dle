@@ -10,7 +10,7 @@ const WinRatio: React.FC = () => {
     
 
     return <> 
-        <h3>Win/Lose Ratio:</h3> 
+        <h6 style={{fontWeight: 600}}>Win/Lose Ratio:</h6> 
         <ProgressBar>
             <ProgressBar style={{backgroundColor: "green", width:`${win_ratio}%`}}/>
             <ProgressBar style={{backgroundColor: "red", width: `${lose_ratio}%`}}/>

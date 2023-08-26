@@ -26,13 +26,17 @@ function Precinct() {
     const imageSrc = precinctImageMap[precinct_guess] || "/precinct/default_new.png";
    
   return (
-    <Image
-      src={imageSrc}
-      width="640"
-      height="360"
-      className="d-inline-block align-top"
-      alt={`${precinct_guess} selected`}
-    />
+    <div style={{position: 'relative', top: '-15px', left: '30px'}}>
+      <Image
+        src={imageSrc}
+        style={{objectFit: "cover"}}
+        width='220'
+        height='220'
+        fill={false}
+        className="d-inline-block align-top"
+        alt={`${precinct_guess} selected`}
+      />
+    </div>
   );
     
 }
