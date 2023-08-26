@@ -10,7 +10,7 @@ function Map() {
   if (!isLoaded) return <div style={{textAlign: "center"}}>Loading map...</div>
 
   return (
-    <div className="text-center d-flex flex-column" style={{height: "calc(100vh - 55px)"}}>
+    <div className="text-center d-flex flex-column" style={{height: "100%"}}>
       <GoogleMap>
         <Marker position={{lat: 4, lng: 4}} />
       </GoogleMap>
