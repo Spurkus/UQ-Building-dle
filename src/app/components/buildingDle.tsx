@@ -90,8 +90,6 @@ function BuildingDle() {
         </Modal.Header>
         <Modal.Body>
         <Button onClick={() => setShowModal(false)}>Close</Button>
-
-        <Map/>
         </Modal.Body>
       </Modal>
 
@@ -102,7 +100,6 @@ function BuildingDle() {
         <Modal.Body>
           <p>Please select a building</p>
         <Button onClick={() => setShowSelectModal(false)}>Close</Button>
-        <Map/>
         </Modal.Body>
       </Modal>
 
