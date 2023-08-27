@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
-import { FormEvent, useRef, useState } from 'react'
+import { FormEvent, useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Select from 'react-select';
@@ -11,14 +11,14 @@ import { useShareableState } from '../hooks/useShareableState';
 import { useBetween } from 'use-between';
 import { Modal } from 'react-bootstrap';
 import { correct_answer, buildings } from "../shared";
-import Map from './map';
 import Confetti from 'react-confetti';
 import { Fireworks } from "@fireworks-js/react";
 
 const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
 function BuildingDle() {
-  const { gameover, setGameover, setGuessAmount, select_element, getSelectValue } = useBetween(useShareableState);
+  const { gameover, setGameover, setGuessAmount, select_element, getSelectValue, wins, 
+          setWins, plays, setPlays, streak, setStreak } = useBetween(useShareableState);
   const [ showModal, setShowModal ] = useState(false)
   const [ showSelectModal, setShowSelectModal ] = useState(false)
   console.log("correct answer:", correct_answer);
@@ -26,8 +26,7 @@ function BuildingDle() {
 
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
   const [won, setWon] = useState(false)
-  const [wins, setWins] = useLocalStorage('wins', 0)
-  const [plays, setPlays] = useLocalStorage('plays', 0)
+  
 
   function onGameover() {
     setPlays(plays + 1)
@@ -52,6 +51,7 @@ function BuildingDle() {
    if (value === correct_answer) {
     setWon(true)
     setWins(wins + 1)
+    setStreak(streak + 1)
     onGameover()
     return
    }
@@ -59,6 +59,7 @@ function BuildingDle() {
   //  I think it's 5 because it's using the old value of guesses
    if (guesses.length === 5) {
     onGameover()
+    setStreak(0)
    }
   }
 

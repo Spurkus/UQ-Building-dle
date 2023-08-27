@@ -1,8 +1,13 @@
+import { useBetween } from "use-between";
+import { useShareableState } from "../hooks/useShareableState";
+
 function Streaks() {
+    const { streak  } = useBetween(useShareableState);
+
     return <>
-    <h6 style={{fontWeight: 600}}>🔥Streaks :</h6>
+    <h6 style={{fontWeight: 600}}>🔥Streak :</h6>
     <div className="text-center">
-        <h4 style={{fontWeight: 500}}>0</h4>
+        <h4 style={{fontWeight: 500}}>{streak}</h4>
     </div>
     </>
 }
