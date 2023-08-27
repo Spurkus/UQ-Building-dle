@@ -6,7 +6,6 @@ import Form from 'react-bootstrap/Form';
 import Select from 'react-select';
 import Button from 'react-bootstrap/Button';
 import Guess from './guess';
-import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useShareableState } from '../hooks/useShareableState';
 import { useBetween } from 'use-between';
 import { Modal } from 'react-bootstrap';

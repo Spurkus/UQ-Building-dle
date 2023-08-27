@@ -7,7 +7,9 @@ const sin = (n: number) => Math.sin(toRadians(n))
 const cos = (n: number) => Math.cos(toRadians(n))
 
 function coordDistance(la1: number, ll1: number, la2: number, ll2: number): number {
-    return Math.round(Math.acos(sin(la1)*sin(la2) +cos(la1)*cos(la2)*cos(ll2-ll1)) * 6371000)  
+    const result = Math.round(Math.acos(sin(la1)*sin(la2) +cos(la1)*cos(la2)*cos(ll2-ll1)) * 6371000)
+    // There was an edge case where it was NaN for some reason
+    return isNaN(result) ? 0 : result 
 }
 
 function parseBuildingNum(num:string) {
