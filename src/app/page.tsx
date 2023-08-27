@@ -10,7 +10,12 @@ import Streaks from "./components/streaks";
 import Precinct from "./components/precinct";
 import { useBetween } from "use-between";
 import { useShareableState } from "./hooks/useShareableState";
-import { correct_answer, buildings, chosen_difficulty } from "./shared";
+import { buildings } from "./shared";
+import { useEffect } from "react";
+
+function randElement<T>(arr: T[]): T {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
 
 function boxStyle(width: string, height: string, paddingLeft: string, paddingRight: string, paddingTop: string, paddingBottom: string) {
   const style = {
@@ -30,7 +35,12 @@ return style
 }
 
 export default function Home() {
-  const { gameover, guessAmount } = useBetween(useShareableState);
+  const { gameover, guessAmount, correct_answer, setCorrectAnswer, possible_buildings, difficulty } = useBetween(useShareableState);
+
+  // This should only run once and only on the client
+  useEffect(() => {
+    setCorrectAnswer(randElement(possible_buildings))
+  }, [])
 
   const x = <div style={{height: "100%", display: "flex", placeItems: "center", justifyContent: "center"}}>
     <div style={{fontSize: 100}}>❌</div>
@@ -58,14 +68,14 @@ export default function Home() {
         </Col>
         <Col xs={5} style={{marginTop: '25px', padding: 0, border: 0}}>
           <div style={boxStyle('100%', '47%', '1rem', '1rem', '1rem', '1rem')}>
-            {chosen_difficulty === 4 ? x :<Map /> }
+            {difficulty === 4 ? x :<Map /> }
           </div>
           <br></br>
           <br></br>
           <Row>
             <Col xs={7}>
             <div style={boxStyle('100%', '220px', '1rem', '1rem', '1rem', '1rem')}>
-              {chosen_difficulty === 4 ? x : <Precinct /> }
+              {difficulty === 4 ? x : <Precinct /> }
               
             </div>
             </Col>

@@ -9,19 +9,19 @@ import Guess from './guess';
 import { useShareableState } from '../hooks/useShareableState';
 import { useBetween } from 'use-between';
 import { Modal } from 'react-bootstrap';
-import { correct_answer, buildings } from "../shared";
+import { buildings } from "../shared";
 import Confetti from 'react-confetti';
 import { Fireworks } from "@fireworks-js/react";
 
-const select_options = Object.keys(buildings).map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
 function BuildingDle() {
   const { gameover, setGameover, setGuessAmount, select_element, getSelectValue, wins, 
-          setWins, plays, setPlays, streak, setStreak } = useBetween(useShareableState);
-  const [ showModal, setShowModal ] = useState(false)
-  const [ showSelectModal, setShowSelectModal ] = useState(false)
-  console.log("correct answer:", correct_answer);
-
+    setWins, plays, setPlays, streak, setStreak, possible_buildings, correct_answer } = useBetween(useShareableState);
+    const [ showModal, setShowModal ] = useState(false)
+    const [ showSelectModal, setShowSelectModal ] = useState(false)
+    console.log("correct answer:", correct_answer);
+    
+  const select_options = possible_buildings.map((num) => {return {value: num, label: `${num} - ${buildings[num].name}`}})
 
   const [guesses, setGuesses] = useState<React.JSX.Element[]>([])
   const [won, setWon] = useState(false)

@@ -8,17 +8,18 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Modal from 'react-bootstrap/Modal';
 import Image from 'next/image';
-import { useLocalStorage } from '../hooks/useLocalStorage';
+import { useBetween } from 'use-between';
+import { useShareableState } from '../hooks/useShareableState';
 
 function NavigationBar() {
+  const { difficulty, setDifficulty } = useBetween(useShareableState);
   const [show, setShow] = useState(false);
   const [ showInstructionsModal, setShowInstructionsModal ] = useState(false)
 
-  const [difficultyValue, setDifficultyValue] = useLocalStorage('difficulty', 2);
-  const [localDifficulty, setLocalDifficulty] = useState(difficultyValue)
+  const [localDifficulty, setLocalDifficulty] = useState(difficulty)
   
   const handleClose = () => {
-    setLocalDifficulty(difficultyValue)
+    setLocalDifficulty(difficulty)
     setShow(false);
   }
   const handleShow = () => setShow(true);
@@ -91,7 +92,7 @@ function NavigationBar() {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={() => {
-            setDifficultyValue(localDifficulty);
+            setDifficulty(localDifficulty);
             location.reload();
           }}>
             Save Changes

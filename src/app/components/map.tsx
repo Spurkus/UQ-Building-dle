@@ -3,10 +3,10 @@ import { useState } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import { useShareableState } from '../hooks/useShareableState';
 import { useBetween } from 'use-between';
-import { correct_answer, buildings } from "../shared";
+import { buildings } from "../shared";
 
 function Map() {
-  const { playing, setPlaying, gameover } = useBetween(useShareableState);
+  const { playing, setPlaying, gameover, correct_answer } = useBetween(useShareableState);
   const [ zoom, setZoom ] = useState(15)
   const [ latitude, setLatitude ] = useState(-27.49742232162857)
   const [ longitude, setLongitude ] = useState(153.01368955550595)

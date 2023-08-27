@@ -1,5 +1,15 @@
+// This file probably does too much but oh well
+
 import { useState, useRef } from "react";
 import { useLocalStorage } from "./useLocalStorage";
+import { buildings } from "../shared"
+
+const difficulties = {
+  "easy": 1,
+  "medium": 2,
+  "hard": 3,
+  "impossible": 4
+}
 
 export const useShareableState = () => {
   const [playing, setPlaying] = useState(true)
@@ -10,6 +20,12 @@ export const useShareableState = () => {
   const [wins, setWins] = useLocalStorage('wins', 0)
   const [plays, setPlays] = useLocalStorage('plays', 0)
   const [streak, setStreak] = useLocalStorage('streak', 0)
+  const [difficulty, setDifficulty] = useLocalStorage('difficulty', 2)
+  const [correct_answer, setCorrectAnswer] = useState("")
+
+  const possible_buildings = Object.keys(buildings)
+    // @ts-ignore
+    .filter(k => difficulties[buildings[k].difficulty] <= difficulty)
 
   // TODO: Proper typing
   // @ts-ignore
@@ -29,6 +45,11 @@ export const useShareableState = () => {
     plays,
     setPlays,
     streak,
-    setStreak
+    setStreak,
+    difficulty,
+    setDifficulty,
+    correct_answer,
+    setCorrectAnswer,
+    possible_buildings
   }
 }
