@@ -22,7 +22,7 @@ export interface Building {
 
 // This causes errors on the server but you can ignore them I think
 // This is probably bad and we should figure out how to use useLocalStorage
-const chosen_difficulty = parseInt(localStorage.getItem('difficulty') ?? "2")
+export const chosen_difficulty = parseInt(localStorage.getItem('difficulty') ?? "2")
 
 // Make Typescript happy
 export const buildings: Record<string, Building> = {};

@@ -14,10 +14,14 @@ function NavigationBar() {
   const [show, setShow] = useState(false);
   const [ showInstructionsModal, setShowInstructionsModal ] = useState(false)
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   const [difficultyValue, setDifficultyValue] = useLocalStorage('difficulty', 2);
+  const [localDifficulty, setLocalDifficulty] = useState(difficultyValue)
+  
+  const handleClose = () => {
+    setLocalDifficulty(difficultyValue)
+    setShow(false);
+  }
+  const handleShow = () => setShow(true);
 
   const difficulties = [
     { name: 'Easy', value: 1 },
@@ -77,8 +81,8 @@ function NavigationBar() {
                 variant={variant(idx + 1)}
                 name="difficulty"
                 value={difficulty.value}
-                checked={difficultyValue === difficulty.value}
-                onChange={(e) => setDifficultyValue(parseInt(e.currentTarget.value))}
+                checked={localDifficulty === difficulty.value}
+                onChange={(e) => setLocalDifficulty(parseInt(e.currentTarget.value))}
               >
                 {difficulty.name}
               </ToggleButton>
@@ -86,11 +90,11 @@ function NavigationBar() {
         </ButtonGroup>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={() => location.reload()}>
-            Play Again
+          <Button variant="primary" onClick={() => {
+            setDifficultyValue(localDifficulty);
+            location.reload();
+          }}>
+            Save Changes
           </Button>
         </Modal.Footer>
       </Modal>

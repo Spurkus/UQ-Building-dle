@@ -10,7 +10,7 @@ import Streaks from "./components/streaks";
 import Precinct from "./components/precinct";
 import { useBetween } from "use-between";
 import { useShareableState } from "./hooks/useShareableState";
-import { correct_answer, buildings } from "./shared";
+import { correct_answer, buildings, chosen_difficulty } from "./shared";
 
 function boxStyle(width: string, height: string, paddingLeft: string, paddingRight: string, paddingTop: string, paddingBottom: string) {
   const style = {
@@ -31,6 +31,10 @@ return style
 
 export default function Home() {
   const { gameover, guessAmount } = useBetween(useShareableState);
+
+  const x = <div style={{height: "100%", display: "flex", placeItems: "center", justifyContent: "center"}}>
+    <div style={{fontSize: 100}}>❌</div>
+  </div>
 
   return (
     <main style={{overflow: 'hidden', backgroundImage: 'linear-gradient(140deg, #B034E9 0%, #06496E 100%)'}}>
@@ -54,14 +58,15 @@ export default function Home() {
         </Col>
         <Col xs={5} style={{marginTop: '25px', padding: 0, border: 0}}>
           <div style={boxStyle('100%', '47%', '1rem', '1rem', '1rem', '1rem')}>
-            <Map />
+            {chosen_difficulty === 4 ? x :<Map /> }
           </div>
           <br></br>
           <br></br>
           <Row>
             <Col xs={7}>
             <div style={boxStyle('100%', '220px', '1rem', '1rem', '1rem', '1rem')}>
-              <Precinct />
+              {chosen_difficulty === 4 ? x : <Precinct /> }
+              
             </div>
             </Col>
             <Col xs={5}>
