@@ -21,11 +21,11 @@ const precinctImageMap = {
 function Precinct() {
  
     //gets the building number 
-    const { getSelectValue } = useBetween(useShareableState);
+    const { getSelectValue, gameover, correct_answer } = useBetween(useShareableState);
   
-    var select_val = getSelectValue();
+    const select_val = gameover ? correct_answer : getSelectValue();
 
-    let precinct_guess = select_val ===undefined ? undefined :  buildings[select_val]["precinct"]; 
+    const precinct_guess = select_val ===undefined ? undefined :  buildings[select_val]["precinct"]; 
 
     //handling of guess to display appropriate image 
     // @ts-ignore
