@@ -4,7 +4,7 @@ UQ-Building-dle is like wordle mixed with countrydle, but for UQ buildings.
 
 If you're interested in playing, here is the link to play: [UQ-Building-dle](https://uq-building-dle.vercel.app) 
 
-![website picture](https://i.imgur.com/z0QiQ9n.png)
+![website picture](https://imgur.com/U1TSAef)
 
 It's actually like really fun and you can play forever.
 ___
@@ -17,8 +17,8 @@ React, Next.js, Node.js, Versel, Bootstrap
 ## Authors
 
 - [@Spurkus](https://www.github.com/spurkus)
-- [@goanna5](https://github.com/goanna5)
 - [@kowasaur](https://github.com/kowasaur)
+- [@goanna5](https://github.com/goanna5)
 - [@roxiesusername](https://github.com/roxiesusername)
 
 
