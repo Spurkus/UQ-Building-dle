@@ -12,7 +12,7 @@ import { Modal } from 'react-bootstrap';
 import { buildings } from "../shared";
 import Confetti from 'react-confetti';
 import { Fireworks } from "@fireworks-js/react";
-import Image from 'next/image';
+
 
 function BuildingDle() {
   const { gameover, setGameover, setGuessAmount, select_element, getSelectValue, wins, 
@@ -84,20 +84,6 @@ function BuildingDle() {
           
         </Modal.Header>
         <Modal.Body>
-          { won ? <Image
-              src="/win-cat.gif"
-              width="400"
-              height="400"
-              alt="win-cat-gif"
-            /> : 
-            <Image
-              src="/lose-cat.gif"
-              width="400"
-              height="400"
-              alt="lose-cat-gif"
-            />}
-          <br></br>
-          <br></br>
         <Button onClick={() => setShowModal(false)}>Close</Button>
         </Modal.Body>
       </Modal>
