@@ -11,7 +11,7 @@ ___
 A UQCS Hackathon 2023 project built in under 45 hours.
 ## 💪Tech Stack
 
-React, Next.js, Node.js, Versel, Bootstrap
+React, Next.js, Node.js, Vercel, Bootstrap
 
 
 ## Authors
