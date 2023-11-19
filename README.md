@@ -1,4 +1,4 @@
-# 🔥UQ-Building-dle🔥
+# 🔥[UQ-Building-dle](https://uq-building-dle.vercel.app)🔥
 
 UQ-Building-dle is like wordle mixed with countrydle, but for UQ buildings. 
 
